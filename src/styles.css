@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Roboto', sans-serif; padding: 0 16px; overflow: auto; }
+
+.calculate-button {
+    background-color: #5d87be;
+    color: white;
+    height:32px;
+    margin-left:16px!important;
+}
+
+.input-explaination {
+    margin-left: 8px;
+}
+
+.flex-group {
+    display:flex;
+    align-items: center;
+    margin-bottom: 8px;
+    position:Relative;
+}
+
+
+.flex-group input {
+    height: 30px;
+    width:72px;
+    border-radius:4px;
+    padding-left:8px;
+    padding-right:8px;
+}
